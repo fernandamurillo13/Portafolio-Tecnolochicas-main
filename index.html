@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title> Fernanda Murillo | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2784/2784389.png"> <!--para el icono de la pagina-->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/2784/2784389.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://media.licdn.com/dms/image/D5603AQH4Rs_0Lb2vrg/profile-displayphoto-shrink_800_800/0/1699113909539?e=1704931200&v=beta&t=hoqNHteWN5ObRbuq92wJVit-kqj_is1ZGfSrkbnTnFE" alt="Foto de Fernanda">
+        <h1>Hola, soy Fernanda Murillo</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://i.pinimg.com/564x/f1/88/7e/f1887e72b512e98da7b204fbead0544d.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Fernanda Murillo</h2>
+        <p class="seccion-texto">Soy una estudiante de Aplicación y Enseñanza de las Ciencias. Me gustan las matemáticas y la lectura. Suelo dar clases de matemáticas, desde cálculo, geometría, etc. Me gustaría trabajar en el área de biomatemática.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Clases de matemáticas</p>
+            <p> He tenido la oportunidad de dar clases a nivel medio superior y superior. A nivel superior trabaje con estudiantes de ingeniería en la materia de geometría y trigonometría. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-rosa">Matemáticas</span>
+              <span class="badge text-bg-rosa">Python</span>
+              <span class="badge text-bg-rosa">Tutorias</span>
+              <span class="badge text-bg-rosa">Correción de artículos</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>He participado en congresos que tienen relación con la enseñanza de las matemáticas, también en la escritura de artículos que tienen que ver con los cambios curriculares. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-rosa">Escribir</span>
+              <span class="badge text-bg-rosa">Editar</span>
+              <span class="badge text-bg-rosa">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Soy una estudiante de la licenciatura en Aplicación y Enseñanza de las Ciencias en la Universidad Autonóma de San Luis Potosí. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-rosa">UASLP</span>
+              <span class="badge text-bg-rosa">Carrera</span>
+              <span class="badge text-bg-rosa">Maestria</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente para el curso de Tecnolochicas PRO</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/fernandamurillo13/ClonGoogle.github.io/tree/main" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de las personas con las que he trabajado.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://lh3.googleusercontent.com/a/ACg8ocK7IjYhZT_Z-T43gFDUAYfPBLB0h6DEJ4VocprVBIZhCg4=s288-c-no" alt="Foto de Alejandra">
+              <p class="testimonio-texto">Es una persona interesada en el aprendizaje, dedicada, creativa  y responsable. Se compromete en todo lo que se propone y logra alcanzarlo. .</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alejandra Balcazar</p>
+                <p class="cargo">Profesora en la licencitura</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.licdn.com/dms/image/D4E03AQHy6w5o-e4jDA/profile-displayphoto-shrink_800_800/0/1699075014867?e=1705536000&v=beta&t=LUsKAlS_um6A993VfEcK7cyDg598xTOnKtq7E_PAii8" alt="Foto de Yurizahan">
+              <p class="testimonio-texto"> Es muy disciplinada y apasionada lo que le permite hacer proyectos muy completos y funcionales. Tiene habilidades de comunicación y liderazgo; es autodidacta y muy servicial. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Myrahis Yurizahan Sanluis Cerezo </p>
+                <p class="cargo">Profesora en la Facultad</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://lh3.googleusercontent.com/a-/ALV-UjVO9v87dofDFqYlFqKbJhgQI5Okfh345tUuKCEI5YGoLBcDol-6OBBejwMIermzOKD9fDP0pIvxeYD3-U5UbsTxe2Nlyj4KIzNOIc0Z1TS8dlhx2cFiugEWjHPNo-272AuUGYMQqPh2PAu8xR5G1e-Ne1_z92M_ZaboF73EluWoflny1-e-O5VaU7QmmAanvdyTHYsEAXiOEsL-_LoS0rKFP8MgCPYx2M-vwyd9qU42tq8hesUpKJNak8Y02lBGQQj5hw-JYG6Ej7JNsFiW1A1WwmvGFys7xkaNHgzJsaTkHT1yjTNHgqvBSH2EbZpo6ODqozuhSIGhUwoddLwlvN_lTujqXw1YW9goD_YBBukGcLxSnmPWzASQKS43w3M9ovVJCE5KzWPNlzA7swC7oKa0EUraGdq4ODdnT5WJD8ABaIdy1e1849kpCU4XqCBhz92Ygn-ZHHeJKVDTqRhTUNuCun5CqwG7_xIUBdsSf0HixMgBm7GB2vSFui4BQKN_ca0zDAJ34f6pq8Wc4N8w7nnpQYv3VkVtdDJ8gO6PrJt7iAMBnl66sMNXeHvMYI_OLcj3CXupR4qcQR4NS8W1fZFh5w0wWQIFNqR8mF070eETpBUb8Cr3tikazASikWn6HejDqBnYBOkch20xVpUxmVmv0BR77b8f9ngFaOQFAyTRMuE5UetIM_MTMwFFluJb-ZjtdjkStI4TLRBphFXT5S9rrrzN94uTX6QNR59zkeXpI5bB6OBftjs8Pn2yb_IxGi1lDINgliT8v7JwyF34-mRn-VKJeUtk26DTZF3juHCvCX5MNfyOg9dCmGw5kWA76vst4SmMdcwxYptmtciN4_hMjJptJV5kGRPIT4bmsHmQEt4WRFAIJBtL-atZjsEHmDJK-J6qsyG_TfN1gd4PyrUjGg3TIE4ewlekQR95bep2P65xryYny_r7gOnz9mDUPRM=s288-c-no   " alt="Foto de Fatima">
+              <p class="testimonio-texto">Es una persona muy responsable y creativa, siempre busca la mejor solución para los problemas de la manera más efectiva. Es muy buena para trabajar en equivo y es una persona proactiva</p>
+              <div class="testimonio-info">
+                <p class="cliente">Fátima Rocío López Ceballos</p>
+                <p class="cargo">Profesora de la Facultad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para aprender más sobre matemáticas.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:fermurillo822@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Me agrada aprender nuevas cosas.<br>Hablemos sobre matemáticas</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/ferbooks2" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/fernandamurillo13" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mar%C3%ADa-fernanda-murillo-guerrero-072b5b298/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/blossometmath/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:fermurillo822@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Fernanda Murillo (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
